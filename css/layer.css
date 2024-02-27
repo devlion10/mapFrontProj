@@ -1,0 +1,55 @@
+.layerUl li{
+    display: inline-block;
+    width: 50%;
+    margin-bottom: 10px;
+
+}
+
+
+.legendDiv{
+    position:relative;
+    float:right;
+    left: -45px;
+}
+
+.legendDiv.tl_sprd_manage5179_legend .diagonal {
+  width: 14px;
+  height: 8px;
+  background: linear-gradient(
+    to top right,
+    #fff calc(50% - 1px),
+    #0008ff,
+    #fff calc(50% + 1px)
+  );
+}
+
+.legendDiv.tl_sprd_manage5179_legend  .reverse_diagonal {
+  width: 14px;
+  height: 8px;
+  background: linear-gradient(
+    to bottom right,
+    #fff calc(50% - 1px),
+    #0008ff,
+    #fff calc(50% + 1px)
+  );
+}
+
+.legendDiv .accident_risk5179_legend {
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    border: 1px solid #999;
+    vertical-align: text-bottom;
+    margin-right: 5px;
+    background-color: #ff5500;
+}
+
+.legendDiv .freezing_risk5179_legend {
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    border: 1px solid #999;
+    vertical-align: text-bottom;
+    margin-right: 5px;
+    background-color: #1a1919;
+}

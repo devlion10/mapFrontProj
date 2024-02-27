@@ -1,0 +1,76 @@
+@charset "utf-8"; @import url('reset.css'); @import url('common.css'); #mapIndex {
+    overflow: hidden;
+    position: absolute;
+    left: -9999px;
+    width: 0;
+    height: 1px;
+    margin: 0;
+    padding: 0;
+}
+
+#wrap {
+    min-width: 1200px;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.inner {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* header */
+.header {
+    min-width: 1250px;
+    height: 70px;
+    background-color: #fff;
+    border-bottom: #eee 1px solid;
+    flex: none;
+    position: relative;
+    z-index: 30;
+}
+
+.header h1 {
+    height: 57px;
+    line-height: 57px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.header .inner {
+    align-items: center;
+    height: 70px;
+}
+
+/*********** 추가 jjkim ***********/
+.map-legend {
+    height: calc(100vh - 327px);
+    overflow: auto;
+}
+.map-legend ul {
+    width: 50%;
+    float: left;
+    height: 160px;
+}
+.map-legend ul li .weighted {
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    border: 1px solid #999;
+    vertical-align: text-bottom;
+    margin-right: 5px;
+    background-color: #fff5f0;
+}
+.map-legend ul.list_01 li:nth-child(2) .weighted {background-color: #ffe3d7;}
+.map-legend ul.list_01 li:nth-child(3) .weighted {background-color: #fdc6af;}
+.map-legend ul.list_01 li:nth-child(4) .weighted {background-color: #fca487;}
+.map-legend ul.list_01 li:nth-child(5) .weighted {background-color: #fc8161;}
+
+.map-legend ul.list_02 li:nth-child(1) .weighted {background-color: #f85d42;}
+.map-legend ul.list_02 li:nth-child(2) .weighted {background-color: #eb362a;}
+.map-legend ul.list_02 li:nth-child(3) .weighted {background-color: #cc181d;}
+.map-legend ul.list_02 li:nth-child(4) .weighted {background-color: #a90f15;}
+.map-legend ul.list_02 li:nth-child(5) .weighted {background-color: #67000d;}
