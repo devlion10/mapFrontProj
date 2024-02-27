@@ -11,7 +11,7 @@ var crsUtil = {
 
     },
 
-    // 좌표계 초기화
+    // 좌표계     초기화
     initProj4: function() {
 
         for (var int = 0; int < this.crsList.length; int++) {
