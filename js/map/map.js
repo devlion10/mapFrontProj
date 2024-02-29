@@ -21,7 +21,6 @@ var MAP={
 
         airImgWinRef:null,
 
-
         createMapClass: function() {
                 console.info("CREATE MAP CLASS");
                 // 기본이 될 Layer 저장
