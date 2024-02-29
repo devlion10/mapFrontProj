@@ -1,7 +1,7 @@
 console.info("map.js")
 
 
-//지도객체 네임스페이스
+//지도 객체 네임스페이스
 var MAP={
 
         //geoserverUrl:'http://192.168.0.2:8080/geoserver',
